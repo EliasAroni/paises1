@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+}
+header{
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+main{
+	margin-top: 10px;
+	display: inline-block;
+}
+	main>h2{
+		text-align: center;
+		padding: 10px;
+	}
+	main>.presentacion{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.con{
+		flex-basis: 500px;
+	}
+article{
+
+	width: 100%;
+
+}
+
+	.busqueda{
+		margin-top: 30px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		
+
+	}
+	.box{
+		display: flex;
+		width: 50%;
+		gap: 5px;
+		flex-basis: 700px;
+		flex-wrap: wrap;
+	}
+	.box>p{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.te{
+		padding: 5px;
+	}
+
+	.texto{
+		flex-grow: 1;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		outline: none;
+		font-size: 20px;
+	}
+
+
+	.buscar{
+
+		padding: 5px;
+		background-color: #ACD1CB;
+		border: none;
+		font-weight: bold;
+	}
+	.buscar:hover{
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+
+	.limpiar{
+		padding: 5px;
+		background-color: #DE6A81;
+		border: none;
+		font-weight: bold;
+
+	}
+	.limpiar:hover{
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+
+
+
+	.contenedorInformacion{
+		margin-top: 40px;
+		width: 100%;
+		height: auto;
+		
+
+	}
+	.informacion{
+		width: 100%;
+		height: auto;
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.etiqueta{
+		margin-top: 10px;
+		background-color:#DDD0CA;
+		margin: 20px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-basis: 100%;
+		gap: 20px;
+		color: black;
+}
+	
+	.item{
+		font-size: 20px;
+	}
+
+
+	.imagen{
+		width: 50px;
+		height: 50px;
+	}
+	
+
+
